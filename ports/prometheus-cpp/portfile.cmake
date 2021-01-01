@@ -2,9 +2,9 @@ vcpkg_check_linkage(ONLY_STATIC_LIBRARY)
 
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
-    REPO jupp0r/prometheus-cpp
-    REF bb017ec15a824d3301845a1274b4b46a01d6d871 # v0.11.0
-    SHA512 5ab3398842305bacf6cd65c700c6856f001bb998b62dea121c119484ccd376115a07afb7d62e6f87c8cbfe4f7ac05d4428121677eb8694eb9c9169465eb3518c
+    REPO spectra-fund/prometheus-cpp
+    REF 7f34e9cd2796bbcab11eb90f37e0b039da6755c1
+    SHA512 ad9f9f03d6d7d2ac79d414519ef27d83407573af70265037c58c5397e4e8f373d6d9962a3ad75e9267906f25fadac0722c48874e1bbe4d5b2b7bfd0ff3497e89
     HEAD_REF master
 )
 
